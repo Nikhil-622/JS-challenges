@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container-1">
+    <h2>Challenge 1 : Your Age in days </h2>
+    <div class="flex-box1">
+      <div>
+        <button class="btn btn-primary" onclick="ageindays()">Click me </button>
+      </div>
+      <div>
+        <button class="btn btn-warning" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <div class="flex-box1">
+      <div id="result1">
+    </div>
+  </div>
+</div>
+<div class="container2">
+  <h2>Challenge 2 : Image generator</h2>
+  <div class="flex-box2"> 
+    <div class="frame">
+      <button class="btn btn-success" id="cat-gen" onclick="gencat()">KABBOM</button>
+    </div>
+  </div>
+  <div class="flex-box3" id="flex-gen"> 
+  </div>
+</div>
+<div class="container3">
+  <h2>Challenge 3 : Rock, Paper, Scissors</h2>
+  <div class="flex-box4" id="flex-box44">
+    <img id="rock" src="./images/rock.png" height=150 width=150 onclick="rpsgame(this)">
+    <img id="paper" src="./images/paper.png" height=150 width=150 onclick="rpsgame(this)">
+    <img id="scissors" src="./images/scissors.png" height=150 width=150 onclick="rpsgame(this)">
+  </div>
+</div>
+<div class="container-4">
+  <h2>Challenge 4 : Change the color of all buttons</h2>
+  <div class="flex-box5">
+    <form action="">
+      <select name="backdrop" id="background"     onchange="buttonchangecolor(this)">
+        <option value="random">Random</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="reset">Reset</option>
+      </select>
+    </form>
+
+    <button class="btn btn-primary">WEE!</button>
+    <button class="btn btn-danger">YAHOO!</button>
+    <button class="btn btn-warning">GOOGLE!</button>
+    <button class="btn btn-success">DAMM!</button>
+  </div>
+</div>
+
+<div class="container5">
+  <h2>Challenge 5 : Blackjack game</h2>
+  <h3><span id="blackjack-result">Let's play</span></h3>
+
+  <div class="flex-box-row1">
+    <div id="your-box">
+      <h2>You:<span id="my-result">0</span></h2>
+    </div>
+
+    <div id="dealer-box">
+      <h2>Dealer : <span id="dealer-result">0</span></h2>
+    </div>
+  </div>
+
+  <div class="flex-box-row2">
+    <div>
+      <button class="btn-lg btn-primary mr-2" id="hit-button">Hit</button>
+      <button class="btn-lg btn-warning mr-2" id="stand-button">Stand</button>
+      <button class="btn-lg btn-danger mr-2" id="deal-button">Deal</button>
+    </div>
+  </div>
+
+  <div class="flex-box-row3">
+    <table>
+      <tr>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Draws</th>
+      </tr>
+
+      <tr>
+        <td><span id="wins">0</span></td>
+        <td><span id="losses">0</span></td>
+        <td><span id="draws">0</span></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<script src="home.js"></script> 
+</body>
+</html> 

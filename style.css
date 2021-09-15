@@ -1,0 +1,101 @@
+.container-1,.container3,.container5{
+    border: 1px solid rgb(70, 70, 70);
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.flex-box1 , .flex-box5{
+    display: flex;
+    border:1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.flex-box1 div{
+    border:1px solid rgb(0, 0, 0) ;
+    padding: 10px;   
+}
+
+.container2,.container-4{
+    
+    border: 1px solid rgb(0, 0, 0);
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box2{
+  
+    border:1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.flex-box3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+.flex-box3 img{
+    box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+    margin: 10px;
+    
+}
+.flex-box4 , .flex-box-row1 , .flex-box-row2 , .flex-box-row3{
+  display: flex;
+  border:1px solid black;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.flex-box4 img{ 
+  margin:20px;
+}
+
+.flex-box4 img:hover{
+  box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+  -webkit-box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+  -moz-box-shadow: 10px 10px 23px 0px rgba(16,16,16,0.82);
+  transform: scale(1.1);
+}
+
+/*Blackjack game*/
+
+.flex-box-row1 , .flex-box-row2{
+    background: url("./images/green.jpg");
+    color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-box-row1 div {
+    border: 1px solid black ;
+    padding: 10px;
+    height: 400px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-box-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-box-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-box-row2 div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex-box-row3 table,.flex-box-row3 td , .flex-box-row3 th{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
